@@ -1,27 +1,58 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>crabybabies.site</title>
 <style>
-  html, body { height: 100%; margin: 0; }
+  html, body { min-height: 100%; margin: 0; }
   body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem 16px;
+    box-sizing: border-box;
     background: #fff;
     color: #111;
     font-family: system-ui, sans-serif;
     text-align: center;
   }
   h1 { font-size: clamp(2rem, 8vw, 4rem); margin: 0 0 .5rem; }
-  p { font-size: 1.25rem; letter-spacing: .15em; text-transform: uppercase; margin: 0; }
+  .soon { font-size: 1.25rem; letter-spacing: .15em; text-transform: uppercase; margin: 0 0 3rem; }
+  section { max-width: 32rem; width: 100%; margin-bottom: 2rem; font-size: .95rem; line-height: 1.6; }
+  h2 { font-size: 1rem; margin: 0 0 .5rem; text-transform: uppercase; letter-spacing: .08em; }
+  dl { display: grid; grid-template-columns: auto 1fr; gap: .25rem 1rem; margin: 0; text-align: left; }
+  dt { color: #555; }
+  dd { margin: 0; }
 </style>
 </head>
 <body>
   <h1>crabybabies.site</h1>
-  <p>Coming soon</p>
+  <p class="soon">Coming soon</p>
+
+  <section>
+    <h2>CRABY BABIES</h2>
+    <dl>
+      <dt>SIREN</dt><dd>130 530 181 · Active</dd>
+      <dt>Adresse</dt><dd>113 avenue de Paris, 94160 Saint-Mandé</dd>
+      <dt>Activité</dt><dd>Arts du spectacle vivant</dd>
+      <dt>Effectif</dt><dd>0 salarié (donnée 2026)</dd>
+      <dt>Création</dt><dd>18/09/2026</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Informations juridiques</h2>
+    <dl>
+      <dt>SIREN</dt><dd>130 530 181</dd>
+      <dt>SIRET (siège)</dt><dd>130 530 181 00010</dd>
+      <dt>Forme juridique</dt><dd>Association déclarée</dd>
+      <dt>N° de TVA</dt><dd>FR03130530181</dd>
+      <dt>RNE</dt><dd>Non inscrit</dd>
+      <dt>RNA</dt><dd>Inscrit le 18/09/2026</dd>
+      <dt>Identifiant association</dt><dd>W942013344</dd>
+    </dl>
+  </section>
 </body>
 </html>
